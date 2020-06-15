@@ -1,0 +1,6 @@
+framework module IFXFoundation {
+  umbrella header "IFXFoundation-umbrella.h"
+
+  export *
+  module * { export * }
+}

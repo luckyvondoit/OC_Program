@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,7 @@
 		C4B8A6B3249663F000282B14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B8A6B2249663F000282B14 /* main.m */; };
 		C4B8A6BD249663F100282B14 /* IFXProgramTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B8A6BC249663F100282B14 /* IFXProgramTests.m */; };
 		C4B8A6C8249663F100282B14 /* IFXProgramUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B8A6C7249663F100282B14 /* IFXProgramUITests.m */; };
+		FCC2C5B285674771009735FF /* Pods_IFXProgram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCC6E0ED1807C65D508699B7 /* Pods_IFXProgram.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AEDFD7E5EE13106638077BAD /* Pods-IFXProgram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IFXProgram.release.xcconfig"; path = "Target Support Files/Pods-IFXProgram/Pods-IFXProgram.release.xcconfig"; sourceTree = "<group>"; };
 		C4B8A69D249663EE00282B14 /* IFXProgram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IFXProgram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4B8A6A0249663EE00282B14 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C4B8A6A1249663EE00282B14 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +56,8 @@
 		C4B8A6C3249663F100282B14 /* IFXProgramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IFXProgramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4B8A6C7249663F100282B14 /* IFXProgramUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IFXProgramUITests.m; sourceTree = "<group>"; };
 		C4B8A6C9249663F100282B14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCC6E0ED1807C65D508699B7 /* Pods_IFXProgram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IFXProgram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E646ECA42DD38996BD2EEAB1 /* Pods-IFXProgram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IFXProgram.debug.xcconfig"; path = "Target Support Files/Pods-IFXProgram/Pods-IFXProgram.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCC2C5B285674771009735FF /* Pods_IFXProgram.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +86,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A10E32C6B1A296B691408916 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E646ECA42DD38996BD2EEAB1 /* Pods-IFXProgram.debug.xcconfig */,
+				AEDFD7E5EE13106638077BAD /* Pods-IFXProgram.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A8D0893F4DB49B6182586F61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCC6E0ED1807C65D508699B7 /* Pods_IFXProgram.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C4B8A694249663EE00282B14 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +111,8 @@
 				C4B8A6BB249663F100282B14 /* IFXProgramTests */,
 				C4B8A6C6249663F100282B14 /* IFXProgramUITests */,
 				C4B8A69E249663EE00282B14 /* Products */,
+				A10E32C6B1A296B691408916 /* Pods */,
+				A8D0893F4DB49B6182586F61 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -144,9 +169,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C4B8A6CC249663F100282B14 /* Build configuration list for PBXNativeTarget "IFXProgram" */;
 			buildPhases = (
+				8612AAE31A9419CE3404F8A3 /* [CP] Check Pods Manifest.lock */,
 				C4B8A699249663EE00282B14 /* Sources */,
 				C4B8A69A249663EE00282B14 /* Frameworks */,
 				C4B8A69B249663EE00282B14 /* Resources */,
+				24284E705F0ADCD221275795 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -204,19 +231,22 @@
 				TargetAttributes = {
 					C4B8A69C249663EE00282B14 = {
 						CreatedOnToolsVersion = 11.3;
+						ProvisioningStyle = Automatic;
 					};
 					C4B8A6B7249663F100282B14 = {
 						CreatedOnToolsVersion = 11.3;
+						ProvisioningStyle = Automatic;
 						TestTargetID = C4B8A69C249663EE00282B14;
 					};
 					C4B8A6C2249663F100282B14 = {
 						CreatedOnToolsVersion = 11.3;
+						ProvisioningStyle = Automatic;
 						TestTargetID = C4B8A69C249663EE00282B14;
 					};
 				};
 			};
 			buildConfigurationList = C4B8A698249663EE00282B14 /* Build configuration list for PBXProject "IFXProgram" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -261,6 +291,49 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24284E705F0ADCD221275795 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IFXProgram/Pods-IFXProgram-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IFXFoundation/IFXFoundation.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IFXFoundation.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IFXProgram/Pods-IFXProgram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8612AAE31A9419CE3404F8A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IFXProgram-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C4B8A699249663EE00282B14 /* Sources */ = {
@@ -437,14 +510,12 @@
 		};
 		C4B8A6CD249663F100282B14 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E646ECA42DD38996BD2EEAB1 /* Pods-IFXProgram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = IFXProgram/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = IFX.IFXProgram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -453,14 +524,12 @@
 		};
 		C4B8A6CE249663F100282B14 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEDFD7E5EE13106638077BAD /* Pods-IFXProgram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = IFXProgram/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = IFX.IFXProgram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -474,11 +543,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = IFXProgramTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = IFX.IFXProgramTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -493,11 +558,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = IFXProgramTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = IFX.IFXProgramTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -510,11 +571,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = IFXProgramUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = IFX.IFXProgramUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -527,11 +584,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = IFXProgramUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = IFX.IFXProgramUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";

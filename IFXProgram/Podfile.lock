@@ -1,0 +1,16 @@
+PODS:
+  - IFXFoundation (0.0.1)
+
+DEPENDENCIES:
+  - IFXFoundation (from `~/Documents/program/OC/OC_Foundation`)
+
+EXTERNAL SOURCES:
+  IFXFoundation:
+    :path: "~/Documents/program/OC/OC_Foundation"
+
+SPEC CHECKSUMS:
+  IFXFoundation: 5ea781fe4954e8ce4fe2d28f9a186d2c35beb6d4
+
+PODFILE CHECKSUM: 632bd64abe3fe0eef64f6b051a120c4b7d803204
+
+COCOAPODS: 1.9.3
