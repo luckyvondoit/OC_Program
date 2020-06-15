@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 
+#import "IFXFoundation/IFXFoundation.h"
+
 @interface AppDelegate ()
 
 @end

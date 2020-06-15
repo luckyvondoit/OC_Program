@@ -11,7 +11,6 @@
 #endif
 
 #import "IFXGCD.h"
-#import "IFXGCD_src.h"
 
 FOUNDATION_EXPORT double IFXFoundationVersionNumber;
 FOUNDATION_EXPORT const unsigned char IFXFoundationVersionString[];

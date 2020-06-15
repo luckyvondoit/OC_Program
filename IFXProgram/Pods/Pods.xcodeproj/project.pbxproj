@@ -7,15 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		110E7DCDC6343FA0B1D93A72704B12DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		1383EADD6E506612206538117ACC1D0D /* GCD_src.md in Sources */ = {isa = PBXBuildFile; fileRef = 339E25FB1B49F2287FB9ECCF0302CEA8 /* GCD_src.md */; };
-		251633DB26BA15CA911100F04398B446 /* GCD.md in Sources */ = {isa = PBXBuildFile; fileRef = 58CCF6A994EE5F71B63229132772F6FE /* GCD.md */; };
-		266ED512CF4CB28EAED52FE4DCEA8E17 /* IFXFoundation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBD1800DCD1D3D9D58198EAD2D3FF6E /* IFXFoundation-dummy.m */; };
-		28287D0E6B80B6C8664636A133B089F6 /* IFXGCD.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CE82EC5AE82BB706E76A84A350F54C7 /* IFXGCD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		298E6A4721B7167A33E88C9953296C07 /* IFXGCD.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C93A75BD145508076CD43CA4857381 /* IFXGCD.m */; };
-		498820D4ABFE05D62F795C4483340C26 /* IFXGCD_src.h in Headers */ = {isa = PBXBuildFile; fileRef = 8798CC18B159AA0C824B1EA258C241AD /* IFXGCD_src.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7DDEDB3CB6E8D3E582073B18FBBA6351 /* IFXFoundation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A85E9FE2C06F7F76499FA27B0DDD85D /* IFXFoundation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BDB35EE47B02E2FA7275183E06F79609 /* IFXGCD_src.m in Sources */ = {isa = PBXBuildFile; fileRef = 936585EA242C85E3157418432D5D7F98 /* IFXGCD_src.m */; };
+		6617BDB87F77C5FEA1ED8CF235172DF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C41DD696249770ED00D1DA77 /* IFXFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = C41DD694249770ED00D1DA77 /* IFXFilter.h */; };
+		C41DD697249770ED00D1DA77 /* IFXFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = C41DD695249770ED00D1DA77 /* IFXFilter.m */; };
+		C5C50904349193EE291771C36D29A5DC /* IFXFoundation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D21102205CDBF024D38962C70D950F2E /* IFXFoundation-dummy.m */; };
+		D6872FCB3D9A74527FECE73CD2BE15B1 /* IFXFoundation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6458CD356E55680B0F60DEDBB99E13B1 /* IFXFoundation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E752B1AF4A901A35B26171089A177C87 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		ECD4F9206B5753AC7A742EA318C9F45A /* Pods-IFXProgram-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 575AE9E9E704D4445F831912DFF2F905 /* Pods-IFXProgram-dummy.m */; };
 		F2D3BC4C16F5448D3C656BAF207593DB /* Pods-IFXProgram-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 79D8D4B1FE9E709267574E1B66593A7A /* Pods-IFXProgram-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -32,37 +28,42 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05987D09C9240B5F0FEF606263C07330 /* IFXFoundation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IFXFoundation.release.xcconfig; sourceTree = "<group>"; };
-		0D8C74FBCA2D5CFB96CF2DFB5E2950FA /* IFXFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IFXFoundation.framework; path = IFXFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		19C93A75BD145508076CD43CA4857381 /* IFXGCD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFXGCD.m; path = Classes/IFXGCD.m; sourceTree = "<group>"; };
-		2FCBC690202DEFEE644E4BCD9C9C4B85 /* IFXFoundation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IFXFoundation-Info.plist"; sourceTree = "<group>"; };
+		0D8C74FBCA2D5CFB96CF2DFB5E2950FA /* IFXFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IFXFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		339E25FB1B49F2287FB9ECCF0302CEA8 /* GCD_src.md */ = {isa = PBXFileReference; includeInIndex = 1; path = GCD_src.md; sourceTree = "<group>"; };
-		3EBD1800DCD1D3D9D58198EAD2D3FF6E /* IFXFoundation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IFXFoundation-dummy.m"; sourceTree = "<group>"; };
-		44A49E05F4C79330ED5D03F353167887 /* IFXFoundation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IFXFoundation.debug.xcconfig; sourceTree = "<group>"; };
+		4C6A4E02F7645125490A0654A7B2ED9F /* IFXFoundation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = IFXFoundation.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		575AE9E9E704D4445F831912DFF2F905 /* Pods-IFXProgram-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IFXProgram-dummy.m"; sourceTree = "<group>"; };
-		58CCF6A994EE5F71B63229132772F6FE /* GCD.md */ = {isa = PBXFileReference; includeInIndex = 1; name = GCD.md; path = Classes/GCD.md; sourceTree = "<group>"; };
-		5CE82EC5AE82BB706E76A84A350F54C7 /* IFXGCD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFXGCD.h; path = Classes/IFXGCD.h; sourceTree = "<group>"; };
+		6458CD356E55680B0F60DEDBB99E13B1 /* IFXFoundation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IFXFoundation-umbrella.h"; sourceTree = "<group>"; };
+		6E7048E1B4F289EAF94EEC804824EEC3 /* IFXFoundation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IFXFoundation.modulemap; sourceTree = "<group>"; };
 		79D8D4B1FE9E709267574E1B66593A7A /* Pods-IFXProgram-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IFXProgram-umbrella.h"; sourceTree = "<group>"; };
-		7A85E9FE2C06F7F76499FA27B0DDD85D /* IFXFoundation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IFXFoundation-umbrella.h"; sourceTree = "<group>"; };
 		7E4280FC4E6B428B1FD9549691088473 /* Pods-IFXProgram-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IFXProgram-Info.plist"; sourceTree = "<group>"; };
-		8798CC18B159AA0C824B1EA258C241AD /* IFXGCD_src.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IFXGCD_src.h; sourceTree = "<group>"; };
+		88CE5C63AFF2E323F244389337E54E88 /* IFXFoundation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IFXFoundation.debug.xcconfig; sourceTree = "<group>"; };
 		8EE5000D27A00A0ABFAA38133F058338 /* Pods-IFXProgram-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IFXProgram-frameworks.sh"; sourceTree = "<group>"; };
-		936585EA242C85E3157418432D5D7F98 /* IFXGCD_src.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IFXGCD_src.m; sourceTree = "<group>"; };
-		99DBF5C842A4365558BD0671F03BC1A2 /* Pods_IFXProgram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_IFXProgram.framework; path = "Pods-IFXProgram.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99DBF5C842A4365558BD0671F03BC1A2 /* Pods_IFXProgram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IFXProgram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C29BF31145E64B2A255A094F93C0A525 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C3A3AE3858695EED418A8CB76F326F58 /* Pods-IFXProgram-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IFXProgram-acknowledgements.plist"; sourceTree = "<group>"; };
+		C41DD694249770ED00D1DA77 /* IFXFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IFXFilter.h; sourceTree = "<group>"; };
+		C41DD695249770ED00D1DA77 /* IFXFilter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IFXFilter.m; sourceTree = "<group>"; };
+		C41DD69C249772CD00D1DA77 /* IFXFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IFXFoundation.h; sourceTree = "<group>"; };
+		C890EBB3B18CE3EC303CF94C541BB5A3 /* IFXFoundation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IFXFoundation-Info.plist"; sourceTree = "<group>"; };
 		CE979278E05768F3C6C291BDFBC324B3 /* Pods-IFXProgram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IFXProgram.debug.xcconfig"; sourceTree = "<group>"; };
-		D5831428D404B2A8AD0DF783D6557BBF /* IFXFoundation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IFXFoundation-prefix.pch"; sourceTree = "<group>"; };
+		D21102205CDBF024D38962C70D950F2E /* IFXFoundation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IFXFoundation-dummy.m"; sourceTree = "<group>"; };
+		D39A243077BFD97E1AD558567A022B29 /* IFXFoundation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IFXFoundation-prefix.pch"; sourceTree = "<group>"; };
 		DD79A4F0721F0D4DD36D767DCD5B9AD9 /* Pods-IFXProgram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IFXProgram.release.xcconfig"; sourceTree = "<group>"; };
 		DDCD4FA13C0698A746902AAABAE81358 /* Pods-IFXProgram-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IFXProgram-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F064CEF9F86B6AE0E0C1F9B11AF200FE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		F28B8451A06F7ED8D33E9E70872BF60A /* IFXFoundation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IFXFoundation.modulemap; sourceTree = "<group>"; };
-		FE291C6DFE34187ADDF45C4613ACDB28 /* IFXFoundation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = IFXFoundation.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E18F8925B07AD64C196277228DE7760F /* IFXFoundation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IFXFoundation.release.xcconfig; sourceTree = "<group>"; };
 		FFC5838825AE059CD195A3526CB67B9D /* Pods-IFXProgram.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-IFXProgram.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		633F63061C995BE43C5D48B22E94C21B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6617BDB87F77C5FEA1ED8CF235172DF5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C65DE8F26862B64685B7314508524149 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -71,73 +72,43 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D62A2824100F5DF7F496FF6AA4EFAAFB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				110E7DCDC6343FA0B1D93A72704B12DA /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1C0AE70E208D1FCE06EA469BF24211A8 /* Pod */ = {
+		0814F1F81EB0EA0F833ACCF84B9387BF /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FE291C6DFE34187ADDF45C4613ACDB28 /* IFXFoundation.podspec */,
-				F064CEF9F86B6AE0E0C1F9B11AF200FE /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		43DF5E4D477EF2CCA2928F9DC264A93B /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				BF1E4E58DBA75A7123FE1786BE7930B9 /* IFXFoundation */,
+				2AD0D300287E0C27AD0E5B70DDDEBA62 /* IFXFoundation */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		797B2408BEC08B5BE3E2CC159E9B1BE6 /* src */ = {
+		2AD0D300287E0C27AD0E5B70DDDEBA62 /* IFXFoundation */ = {
 			isa = PBXGroup;
 			children = (
-				339E25FB1B49F2287FB9ECCF0302CEA8 /* GCD_src.md */,
-				8798CC18B159AA0C824B1EA258C241AD /* IFXGCD_src.h */,
-				936585EA242C85E3157418432D5D7F98 /* IFXGCD_src.m */,
-			);
-			name = src;
-			path = Classes/src;
-			sourceTree = "<group>";
-		};
-		7AC185F563D0703C9E640ECEDA225CB0 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F28B8451A06F7ED8D33E9E70872BF60A /* IFXFoundation.modulemap */,
-				3EBD1800DCD1D3D9D58198EAD2D3FF6E /* IFXFoundation-dummy.m */,
-				2FCBC690202DEFEE644E4BCD9C9C4B85 /* IFXFoundation-Info.plist */,
-				D5831428D404B2A8AD0DF783D6557BBF /* IFXFoundation-prefix.pch */,
-				7A85E9FE2C06F7F76499FA27B0DDD85D /* IFXFoundation-umbrella.h */,
-				44A49E05F4C79330ED5D03F353167887 /* IFXFoundation.debug.xcconfig */,
-				05987D09C9240B5F0FEF606263C07330 /* IFXFoundation.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../OC_Program/IFXProgram/Pods/Target Support Files/IFXFoundation";
-			sourceTree = "<group>";
-		};
-		BF1E4E58DBA75A7123FE1786BE7930B9 /* IFXFoundation */ = {
-			isa = PBXGroup;
-			children = (
-				58CCF6A994EE5F71B63229132772F6FE /* GCD.md */,
-				5CE82EC5AE82BB706E76A84A350F54C7 /* IFXGCD.h */,
-				19C93A75BD145508076CD43CA4857381 /* IFXGCD.m */,
-				1C0AE70E208D1FCE06EA469BF24211A8 /* Pod */,
-				797B2408BEC08B5BE3E2CC159E9B1BE6 /* src */,
-				7AC185F563D0703C9E640ECEDA225CB0 /* Support Files */,
+				C41DD69C249772CD00D1DA77 /* IFXFoundation.h */,
+				C41DD693249770BA00D1DA77 /* Filter */,
+				EAE157377524490AE845BE15E35023DD /* Pod */,
+				86A3B903A1CD001421C3BD6A13B424E3 /* Support Files */,
 			);
 			name = IFXFoundation;
 			path = /Users/luckyvon/Documents/program/OC/OC_Foundation;
 			sourceTree = "<absolute>";
+		};
+		86A3B903A1CD001421C3BD6A13B424E3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E7048E1B4F289EAF94EEC804824EEC3 /* IFXFoundation.modulemap */,
+				D21102205CDBF024D38962C70D950F2E /* IFXFoundation-dummy.m */,
+				C890EBB3B18CE3EC303CF94C541BB5A3 /* IFXFoundation-Info.plist */,
+				D39A243077BFD97E1AD558567A022B29 /* IFXFoundation-prefix.pch */,
+				6458CD356E55680B0F60DEDBB99E13B1 /* IFXFoundation-umbrella.h */,
+				88CE5C63AFF2E323F244389337E54E88 /* IFXFoundation.debug.xcconfig */,
+				E18F8925B07AD64C196277228DE7760F /* IFXFoundation.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../OC_Program/IFXProgram/Pods/Target Support Files/IFXFoundation";
+			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
@@ -147,11 +118,21 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		C41DD693249770BA00D1DA77 /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+				C41DD694249770ED00D1DA77 /* IFXFilter.h */,
+				C41DD695249770ED00D1DA77 /* IFXFilter.m */,
+			);
+			name = Filter;
+			path = Classes/Filter;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				43DF5E4D477EF2CCA2928F9DC264A93B /* Development Pods */,
+				0814F1F81EB0EA0F833ACCF84B9387BF /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				D1BB3074FB80C226C8AB1BD3A13916D4 /* Products */,
 				D7494277079CD24599269CACF1A37141 /* Targets Support Files */,
@@ -200,24 +181,32 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		EAE157377524490AE845BE15E35023DD /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4C6A4E02F7645125490A0654A7B2ED9F /* IFXFoundation.podspec */,
+				C29BF31145E64B2A255A094F93C0A525 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		8CF2F6E3EA454DD420A1FEF2B26C9108 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6872FCB3D9A74527FECE73CD2BE15B1 /* IFXFoundation-umbrella.h in Headers */,
+				C41DD696249770ED00D1DA77 /* IFXFilter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D14DAD7A03ECCA617BFE77CEEA048118 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F2D3BC4C16F5448D3C656BAF207593DB /* Pods-IFXProgram-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DB4675FF2B35FEF90C31441D23EC9F4F /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7DDEDB3CB6E8D3E582073B18FBBA6351 /* IFXFoundation-umbrella.h in Headers */,
-				28287D0E6B80B6C8664636A133B089F6 /* IFXGCD.h in Headers */,
-				498820D4ABFE05D62F795C4483340C26 /* IFXGCD_src.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,12 +234,12 @@
 		};
 		A61675175B1DF78776B556C2B49F4C49 /* IFXFoundation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DD41E5CEDF166ED8CA17C40222E9FC4A /* Build configuration list for PBXNativeTarget "IFXFoundation" */;
+			buildConfigurationList = 8947660D2FE49A7C9496655C146854DC /* Build configuration list for PBXNativeTarget "IFXFoundation" */;
 			buildPhases = (
-				DB4675FF2B35FEF90C31441D23EC9F4F /* Headers */,
-				F30FDC9ED63DEE4216A30FE2D4295895 /* Sources */,
-				D62A2824100F5DF7F496FF6AA4EFAAFB /* Frameworks */,
-				30F9C0D34BD69A9709ECF5D963FD2901 /* Resources */,
+				8CF2F6E3EA454DD420A1FEF2B26C9108 /* Headers */,
+				E3EF5E39E90738E235D80BAC4579FFB7 /* Sources */,
+				633F63061C995BE43C5D48B22E94C21B /* Frameworks */,
+				A5C7CEA0135214D6C6C87639E3BF6D62 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -290,7 +279,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		30F9C0D34BD69A9709ECF5D963FD2901 /* Resources */ = {
+		A5C7CEA0135214D6C6C87639E3BF6D62 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -315,15 +304,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F30FDC9ED63DEE4216A30FE2D4295895 /* Sources */ = {
+		E3EF5E39E90738E235D80BAC4579FFB7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				251633DB26BA15CA911100F04398B446 /* GCD.md in Sources */,
-				1383EADD6E506612206538117ACC1D0D /* GCD_src.md in Sources */,
-				266ED512CF4CB28EAED52FE4DCEA8E17 /* IFXFoundation-dummy.m in Sources */,
-				298E6A4721B7167A33E88C9953296C07 /* IFXGCD.m in Sources */,
-				BDB35EE47B02E2FA7275183E06F79609 /* IFXGCD_src.m in Sources */,
+				C5C50904349193EE291771C36D29A5DC /* IFXFoundation-dummy.m in Sources */,
+				C41DD697249770ED00D1DA77 /* IFXFilter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +325,37 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		228FFD985178749694FE7DBC9968C70A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E18F8925B07AD64C196277228DE7760F /* IFXFoundation.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IFXFoundation/IFXFoundation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IFXFoundation/IFXFoundation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IFXFoundation/IFXFoundation.modulemap";
+				PRODUCT_MODULE_NAME = IFXFoundation;
+				PRODUCT_NAME = IFXFoundation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		4F45B3A9424F077E8B4F0DD692C56A41 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DD79A4F0721F0D4DD36D767DCD5B9AD9 /* Pods-IFXProgram.release.xcconfig */;
@@ -372,36 +389,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		74D75CD1FE93EEC014A9CCC72F51498C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 44A49E05F4C79330ED5D03F353167887 /* IFXFoundation.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/IFXFoundation/IFXFoundation-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/IFXFoundation/IFXFoundation-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/IFXFoundation/IFXFoundation.modulemap";
-				PRODUCT_MODULE_NAME = IFXFoundation;
-				PRODUCT_NAME = IFXFoundation;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -456,12 +443,41 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
+		};
+		8F896EDD26AD133331CD65EF06BF30FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88CE5C63AFF2E323F244389337E54E88 /* IFXFoundation.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IFXFoundation/IFXFoundation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IFXFoundation/IFXFoundation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IFXFoundation/IFXFoundation.modulemap";
+				PRODUCT_MODULE_NAME = IFXFoundation;
+				PRODUCT_NAME = IFXFoundation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		916E0404255105F480DC4950B7625F7A /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -560,37 +576,6 @@
 			};
 			name = Debug;
 		};
-		A1B32439F8D4A320507687D04E35C9C3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 05987D09C9240B5F0FEF606263C07330 /* IFXFoundation.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/IFXFoundation/IFXFoundation-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/IFXFoundation/IFXFoundation-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/IFXFoundation/IFXFoundation.modulemap";
-				PRODUCT_MODULE_NAME = IFXFoundation;
-				PRODUCT_NAME = IFXFoundation;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -612,11 +597,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DD41E5CEDF166ED8CA17C40222E9FC4A /* Build configuration list for PBXNativeTarget "IFXFoundation" */ = {
+		8947660D2FE49A7C9496655C146854DC /* Build configuration list for PBXNativeTarget "IFXFoundation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				74D75CD1FE93EEC014A9CCC72F51498C /* Debug */,
-				A1B32439F8D4A320507687D04E35C9C3 /* Release */,
+				8F896EDD26AD133331CD65EF06BF30FA /* Debug */,
+				228FFD985178749694FE7DBC9968C70A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
