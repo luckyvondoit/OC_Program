@@ -10,7 +10,8 @@
 #endif
 #endif
 
-#import "IFXGCD.h"
+#import "IFXFoundation.h"
+#import "IFXFilter.h"
 
 FOUNDATION_EXPORT double IFXFoundationVersionNumber;
 FOUNDATION_EXPORT const unsigned char IFXFoundationVersionString[];

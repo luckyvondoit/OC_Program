@@ -19,7 +19,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [self test];
     return YES;
+}
+
+- (void)test {
+    [IFXFilter filterWithKVC];
 }
 
 
