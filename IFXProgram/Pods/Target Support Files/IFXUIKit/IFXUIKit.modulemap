@@ -1,0 +1,6 @@
+framework module IFXUIKit {
+  umbrella header "IFXUIKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

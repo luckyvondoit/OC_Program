@@ -198,9 +198,11 @@ fi
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/IFXFoundation/IFXFoundation.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/IFXUIKit/IFXUIKit.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/IFXFoundation/IFXFoundation.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/IFXUIKit/IFXUIKit.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

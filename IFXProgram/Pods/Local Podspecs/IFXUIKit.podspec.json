@@ -1,0 +1,25 @@
+{
+  "name": "IFXUIKit",
+  "version": "0.0.1",
+  "summary": "usage of UIKit",
+  "description": "summay of UIKit",
+  "homepage": "https://github.com/luckyvondoit/OC_UIKit.git",
+  "license": {
+    "type": "BSD"
+  },
+  "authors": {
+    "luckyvon": "luckyvondoit@163.com"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/luckyvondoit/OC_UIKit.git",
+    "tag": "0.0.1"
+  },
+  "source_files": [
+    "Classes",
+    "Classes/**/*.{h,m,md}"
+  ],
+  "exclude_files": "Classes/Exclude"
+}

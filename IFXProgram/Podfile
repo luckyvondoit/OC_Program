@@ -6,5 +6,6 @@ target 'IFXProgram' do
   use_frameworks!
   
   pod 'IFXFoundation',             :path => "#{local_path}/OC_Foundation"
+  pod 'IFXUIKit',             :path => "#{local_path}/OC_UIKit"
 	
 end

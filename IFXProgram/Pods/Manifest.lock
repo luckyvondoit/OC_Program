@@ -1,16 +1,21 @@
 PODS:
   - IFXFoundation (0.0.1)
+  - IFXUIKit (0.0.1)
 
 DEPENDENCIES:
   - IFXFoundation (from `~/Documents/program/OC/OC_Foundation`)
+  - IFXUIKit (from `~/Documents/program/OC/OC_UIKit`)
 
 EXTERNAL SOURCES:
   IFXFoundation:
     :path: "~/Documents/program/OC/OC_Foundation"
+  IFXUIKit:
+    :path: "~/Documents/program/OC/OC_UIKit"
 
 SPEC CHECKSUMS:
   IFXFoundation: 5ea781fe4954e8ce4fe2d28f9a186d2c35beb6d4
+  IFXUIKit: a6ffff116e41107b0732428ef4b3998a2a2e777d
 
-PODFILE CHECKSUM: 632bd64abe3fe0eef64f6b051a120c4b7d803204
+PODFILE CHECKSUM: c3ee8fe567ece1dd8df58598ad6f2dc756572218
 
 COCOAPODS: 1.9.3

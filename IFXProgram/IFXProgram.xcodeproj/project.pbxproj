@@ -8,9 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C4B8A6A2249663EE00282B14 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B8A6A1249663EE00282B14 /* AppDelegate.m */; };
-		C4B8A6A5249663EE00282B14 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B8A6A4249663EE00282B14 /* SceneDelegate.m */; };
 		C4B8A6A8249663EE00282B14 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B8A6A7249663EE00282B14 /* ViewController.m */; };
-		C4B8A6AB249663EE00282B14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4B8A6A9249663EE00282B14 /* Main.storyboard */; };
 		C4B8A6AD249663F000282B14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4B8A6AC249663F000282B14 /* Assets.xcassets */; };
 		C4B8A6B0249663F000282B14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4B8A6AE249663F000282B14 /* LaunchScreen.storyboard */; };
 		C4B8A6B3249663F000282B14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B8A6B2249663F000282B14 /* main.m */; };
@@ -41,11 +39,8 @@
 		C4B8A69D249663EE00282B14 /* IFXProgram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IFXProgram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4B8A6A0249663EE00282B14 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C4B8A6A1249663EE00282B14 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C4B8A6A3249663EE00282B14 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		C4B8A6A4249663EE00282B14 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		C4B8A6A6249663EE00282B14 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		C4B8A6A7249663EE00282B14 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		C4B8A6AA249663EE00282B14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C4B8A6AC249663F000282B14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4B8A6AF249663F000282B14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C4B8A6B1249663F000282B14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -130,11 +125,8 @@
 			children = (
 				C4B8A6A0249663EE00282B14 /* AppDelegate.h */,
 				C4B8A6A1249663EE00282B14 /* AppDelegate.m */,
-				C4B8A6A3249663EE00282B14 /* SceneDelegate.h */,
-				C4B8A6A4249663EE00282B14 /* SceneDelegate.m */,
 				C4B8A6A6249663EE00282B14 /* ViewController.h */,
 				C4B8A6A7249663EE00282B14 /* ViewController.m */,
-				C4B8A6A9249663EE00282B14 /* Main.storyboard */,
 				C4B8A6AC249663F000282B14 /* Assets.xcassets */,
 				C4B8A6AE249663F000282B14 /* LaunchScreen.storyboard */,
 				C4B8A6B1249663F000282B14 /* Info.plist */,
@@ -271,7 +263,6 @@
 			files = (
 				C4B8A6B0249663F000282B14 /* LaunchScreen.storyboard in Resources */,
 				C4B8A6AD249663F000282B14 /* Assets.xcassets in Resources */,
-				C4B8A6AB249663EE00282B14 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,10 +291,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-IFXProgram/Pods-IFXProgram-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/IFXFoundation/IFXFoundation.framework",
+				"${BUILT_PRODUCTS_DIR}/IFXUIKit/IFXUIKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IFXFoundation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IFXUIKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -342,7 +335,6 @@
 				C4B8A6A8249663EE00282B14 /* ViewController.m in Sources */,
 				C4B8A6A2249663EE00282B14 /* AppDelegate.m in Sources */,
 				C4B8A6B3249663F000282B14 /* main.m in Sources */,
-				C4B8A6A5249663EE00282B14 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,14 +370,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C4B8A6A9249663EE00282B14 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C4B8A6AA249663EE00282B14 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C4B8A6AE249663F000282B14 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
