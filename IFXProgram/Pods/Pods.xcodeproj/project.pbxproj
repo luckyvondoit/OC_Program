@@ -7,30 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0810022AC629C95CEDB981556B4AC7F8 /* IFXView1.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B70325D13F32692D21AD508BC2268DA /* IFXView1.m */; };
-		1C8F9DD98809857D18BC00D248F5D724 /* IFXFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B15803E9FA6ED3D4530EDC3ECF36447 /* IFXFilter.m */; };
-		2199EA8920BC15DB62008A7E0BD95F03 /* IFXView3.h in Headers */ = {isa = PBXBuildFile; fileRef = 11D5849BDBFDA1320127F754BE8FE947 /* IFXView3.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		042F6A3F22795A6E4926D92EDC882D42 /* IFXFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = D7DC1DC39C1F3779D7FA01E926164F6B /* IFXFilter.m */; };
+		0810022AC629C95CEDB981556B4AC7F8 /* IFXView1.m in Sources */ = {isa = PBXBuildFile; fileRef = 83407D6629899E440FB5A1D419876E02 /* IFXView1.m */; };
+		08A2A44338FE75CAE63E429F9F25D6FD /* IFXFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = F59CD7B34B8193EA1765F1C68045457E /* IFXFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1057F5380D5BCC5E81681BB1FE223E8A /* IFXChangePrivateProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BF4C1944301B002DF4337370D174997 /* IFXChangePrivateProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2199EA8920BC15DB62008A7E0BD95F03 /* IFXView3.h in Headers */ = {isa = PBXBuildFile; fileRef = F99B57C036714A7FD56E130012FCE0B5 /* IFXView3.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		30B3B7E6B757C8C27A784C7A24E2DAEF /* Pods-IFXProgram-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 575AE9E9E704D4445F831912DFF2F905 /* Pods-IFXProgram-dummy.m */; };
-		323B838DF7952D63991C6E9BA51B7EF0 /* IFXFoundation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 367B5BF76E80E408CEB2AC33F0C7CAA7 /* IFXFoundation-dummy.m */; };
-		33757761487B1C80DF0B4E8CA65B4472 /* IFXRCView.h in Headers */ = {isa = PBXBuildFile; fileRef = 298C1F2B12396563D9D082175E91890B /* IFXRCView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33757761487B1C80DF0B4E8CA65B4472 /* IFXRCView.h in Headers */ = {isa = PBXBuildFile; fileRef = D8CCDA281023AA67882046517F98EBE4 /* IFXRCView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		350AF1A5A0CF6441C1035B498AD143C0 /* NSObject+IFXZombie.m in Sources */ = {isa = PBXBuildFile; fileRef = 570FE5A8699E01ABAD75D5AABDA5DF18 /* NSObject+IFXZombie.m */; };
+		35AC8AF29491E33046FA0430484224A9 /* IFXChangePrivateProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 7486A5C50F047EE14A948009DC738DEA /* IFXChangePrivateProperty.m */; };
 		488E8FA2D7AB1131DF9C94E619A66C7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		4B3FBEFA660A5191D045523B84C1B90A /* IFXFoundation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AD358E80C9C915737FB63CA6B6B84C2A /* IFXFoundation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4FA7958A0D594FA4B08931FC099873BB /* IFXFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 71DE383634671670467C1943E5010F31 /* IFXFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		52C95AA1FF4F8112DE8F3825CC24B42D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		5674F138A36EB5DA2850440DC1AC0804 /* NSObject+IFXZombie.h in Headers */ = {isa = PBXBuildFile; fileRef = 17E47069967DB51DBE03E6C4E2918A0B /* NSObject+IFXZombie.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5C83A6BB1FF876C7F0C4C8C4BFE48F13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		6BA57F0D16079F0CE1AC7AF21F927DA5 /* IFXView2.h in Headers */ = {isa = PBXBuildFile; fileRef = 971863E948B2EBBFF9465724DA0339C7 /* IFXView2.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7696C2CC027674051C0E8C5AA64FAF34 /* IFXView1.h in Headers */ = {isa = PBXBuildFile; fileRef = 719C1245778AF70C90583557C2477367 /* IFXView1.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CD7DDBBB7CD209E8A6114BC6BDA9AB2 /* IFXView2.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B31F38F26B8716F4128BD5A5C9D4720 /* IFXView2.m */; };
-		8023ADB65F15DDFEF65156A74C13851F /* IFXFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 44B7A075181C9E6D94A31141A0AF6447 /* IFXFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		82B5C77929800020A7D50F640D94804B /* IFXTestVC.h in Headers */ = {isa = PBXBuildFile; fileRef = FC7A72E2748C24E5B49F0B7FC4E5D963 /* IFXTestVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		85A5A91D8CEF5B0EFD0167C2A5BDDABA /* IFXResponderChainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A24047939F6159563252A785FC538CD5 /* IFXResponderChainVC.m */; };
-		8C8A97A17D02BDAEA7A22B1A32E5F4F2 /* IFXView3.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8D7FC1D2BB2726D0009BC31AC181CD /* IFXView3.m */; };
-		AC8652C98759FD2CE376D904E7508502 /* IFXTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC80D127B384720EBD2163EE1DC2EC5 /* IFXTestVC.m */; };
-		AE209B332FB6B9101346F34ADA322366 /* IFXUIKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F0FA625C7AE552AE18121A4762AA5A /* IFXUIKit-dummy.m */; };
-		B1D53F07C994A907B5E2AF9CD457240F /* IFXRCView.m in Sources */ = {isa = PBXBuildFile; fileRef = 834E228EBF2AE33B583F32C8EEF813A3 /* IFXRCView.m */; };
-		C05B2FE0438BBA7636BC0BA56179303B /* IFXUIKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25792DE48B047E4ACE1442B117176E17 /* IFXUIKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C5FF12463876D9777EE0335C4EE909E1 /* IFXResponderChainVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 811A6B664BA82730F53B3C47A04EC91F /* IFXResponderChainVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D1A0719ED6A86BF5C8D5D49404396422 /* IFXUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = CE7CE73880E2482398C58E958BC2988D /* IFXUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65916686C8FACE0982628C79C24894A0 /* IFXFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 03F5DB6FA21D0FD3FD68965BB51C4454 /* IFXFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BA57F0D16079F0CE1AC7AF21F927DA5 /* IFXView2.h in Headers */ = {isa = PBXBuildFile; fileRef = FB20334EFF8D6D36749EA0455809A901 /* IFXView2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7696C2CC027674051C0E8C5AA64FAF34 /* IFXView1.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D996270F6965FE8982F3ADE968E3E18 /* IFXView1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CD7DDBBB7CD209E8A6114BC6BDA9AB2 /* IFXView2.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD5A99B2DD9FD39ABF3B988FDA4CCE6 /* IFXView2.m */; };
+		82B5C77929800020A7D50F640D94804B /* IFXTestVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 38D3709E96F7A92AB25F2611897599B4 /* IFXTestVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85A5A91D8CEF5B0EFD0167C2A5BDDABA /* IFXResponderChainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CE82F444CEBC0C84FFE273E3C33CE77E /* IFXResponderChainVC.m */; };
+		8C8A97A17D02BDAEA7A22B1A32E5F4F2 /* IFXView3.m in Sources */ = {isa = PBXBuildFile; fileRef = 4177346D77993617E580982482D590C3 /* IFXView3.m */; };
+		AC8652C98759FD2CE376D904E7508502 /* IFXTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 14171A5631EBBB9EA5A3E153B9A3DB6A /* IFXTestVC.m */; };
+		AE209B332FB6B9101346F34ADA322366 /* IFXUIKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D23261ED1DCF0628A0DCADE8A7646BF /* IFXUIKit-dummy.m */; };
+		AE2B6A5CF66BE57E6B9CD0083D2BA7CF /* IFXFoundation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 449CE78C53171D8224ED09DB3D156D70 /* IFXFoundation-dummy.m */; };
+		B1D53F07C994A907B5E2AF9CD457240F /* IFXRCView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAC41BF2145CA539CEE316B10CEC898 /* IFXRCView.m */; };
+		C05B2FE0438BBA7636BC0BA56179303B /* IFXUIKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C816654149B173CB2E34FD0E8ACC47F8 /* IFXUIKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5FF12463876D9777EE0335C4EE909E1 /* IFXResponderChainVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 247B52AB5B917BCA564247A73940C97A /* IFXResponderChainVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0EEAF4B86544A4907AB0B397CCA58FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D1A0719ED6A86BF5C8D5D49404396422 /* IFXUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 99C62E07D72BBD86F15DE8F4F117A6B7 /* IFXUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBD4EF6ECA68F87E15D4D6F28631787B /* IFXFoundation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA92C1244B58A2B9F64805806A47400E /* IFXFoundation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E885D44BF4CF6FF316D74F161E636D15 /* Pods-IFXProgram-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 79D8D4B1FE9E709267574E1B66593A7A /* Pods-IFXProgram-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -52,57 +56,69 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05F0FA625C7AE552AE18121A4762AA5A /* IFXUIKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IFXUIKit-dummy.m"; sourceTree = "<group>"; };
-		093B6D58FCF6C541DF25CF9EC36C1483 /* IFXFoundation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IFXFoundation-prefix.pch"; sourceTree = "<group>"; };
+		03F5DB6FA21D0FD3FD68965BB51C4454 /* IFXFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFXFoundation.h; path = Classes/IFXFoundation.h; sourceTree = "<group>"; };
+		0D23261ED1DCF0628A0DCADE8A7646BF /* IFXUIKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IFXUIKit-dummy.m"; sourceTree = "<group>"; };
 		0D8C74FBCA2D5CFB96CF2DFB5E2950FA /* IFXFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IFXFoundation.framework; path = IFXFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		11D5849BDBFDA1320127F754BE8FE947 /* IFXView3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IFXView3.h; sourceTree = "<group>"; };
-		1B15803E9FA6ED3D4530EDC3ECF36447 /* IFXFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IFXFilter.m; sourceTree = "<group>"; };
-		1FC79BAFFCC4E32ADD71CD86B2280254 /* IFXUIKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IFXUIKit.debug.xcconfig; sourceTree = "<group>"; };
-		25792DE48B047E4ACE1442B117176E17 /* IFXUIKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IFXUIKit-umbrella.h"; sourceTree = "<group>"; };
-		298C1F2B12396563D9D082175E91890B /* IFXRCView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IFXRCView.h; sourceTree = "<group>"; };
-		2BC80D127B384720EBD2163EE1DC2EC5 /* IFXTestVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IFXTestVC.m; sourceTree = "<group>"; };
+		14171A5631EBBB9EA5A3E153B9A3DB6A /* IFXTestVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IFXTestVC.m; sourceTree = "<group>"; };
+		17E47069967DB51DBE03E6C4E2918A0B /* NSObject+IFXZombie.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+IFXZombie.h"; sourceTree = "<group>"; };
+		247B52AB5B917BCA564247A73940C97A /* IFXResponderChainVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IFXResponderChainVC.h; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		367B5BF76E80E408CEB2AC33F0C7CAA7 /* IFXFoundation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IFXFoundation-dummy.m"; sourceTree = "<group>"; };
-		3782A26CE7ABF8CA2610A4EF971EAC2F /* IFXFoundation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IFXFoundation.debug.xcconfig; sourceTree = "<group>"; };
-		3B70325D13F32692D21AD508BC2268DA /* IFXView1.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IFXView1.m; sourceTree = "<group>"; };
-		44B7A075181C9E6D94A31141A0AF6447 /* IFXFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFXFoundation.h; path = Classes/IFXFoundation.h; sourceTree = "<group>"; };
-		50F527B4B52668F1A92CEB7DEB81B5E3 /* IFXFoundation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IFXFoundation.modulemap; sourceTree = "<group>"; };
+		359AECB45DCAA1603DD3769C23AD93D2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		38D3709E96F7A92AB25F2611897599B4 /* IFXTestVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IFXTestVC.h; sourceTree = "<group>"; };
+		3D6BDAA5D97CD6136451704B013ECF69 /* IFXFoundation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IFXFoundation.debug.xcconfig; sourceTree = "<group>"; };
+		4177346D77993617E580982482D590C3 /* IFXView3.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IFXView3.m; sourceTree = "<group>"; };
+		449CE78C53171D8224ED09DB3D156D70 /* IFXFoundation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IFXFoundation-dummy.m"; sourceTree = "<group>"; };
+		46CF79854B4D538ECE944B157094B25A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4A480DA16541BFF1DC70DF9851D8DA6D /* IFXFoundation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = IFXFoundation.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		570FE5A8699E01ABAD75D5AABDA5DF18 /* NSObject+IFXZombie.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+IFXZombie.m"; sourceTree = "<group>"; };
 		575AE9E9E704D4445F831912DFF2F905 /* Pods-IFXProgram-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IFXProgram-dummy.m"; sourceTree = "<group>"; };
-		6794C852A069AE4D25E2583747280F1B /* IFXUIKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = IFXUIKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		6801DE4E8AA35FABCBE83885C28D2C7A /* IFXUIKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IFXUIKit.release.xcconfig; sourceTree = "<group>"; };
-		719C1245778AF70C90583557C2477367 /* IFXView1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IFXView1.h; sourceTree = "<group>"; };
-		71DE383634671670467C1943E5010F31 /* IFXFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IFXFilter.h; sourceTree = "<group>"; };
+		6682432D8580AAF3DC2EFA6CA12D7C58 /* IFXUIKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IFXUIKit-prefix.pch"; sourceTree = "<group>"; };
+		6B76DC5D908A6CB523B2C97C03D532A9 /* IFXUIKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IFXUIKit-Info.plist"; sourceTree = "<group>"; };
+		6EAC41BF2145CA539CEE316B10CEC898 /* IFXRCView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IFXRCView.m; sourceTree = "<group>"; };
+		7486A5C50F047EE14A948009DC738DEA /* IFXChangePrivateProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IFXChangePrivateProperty.m; sourceTree = "<group>"; };
+		78277B1B94CF1F0144E4BBDAEF73E083 /* IFXUIKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = IFXUIKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		79D8D4B1FE9E709267574E1B66593A7A /* Pods-IFXProgram-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IFXProgram-umbrella.h"; sourceTree = "<group>"; };
-		7B31F38F26B8716F4128BD5A5C9D4720 /* IFXView2.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IFXView2.m; sourceTree = "<group>"; };
 		7E4280FC4E6B428B1FD9549691088473 /* Pods-IFXProgram-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IFXProgram-Info.plist"; sourceTree = "<group>"; };
-		811A6B664BA82730F53B3C47A04EC91F /* IFXResponderChainVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IFXResponderChainVC.h; sourceTree = "<group>"; };
-		834E228EBF2AE33B583F32C8EEF813A3 /* IFXRCView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IFXRCView.m; sourceTree = "<group>"; };
-		864612A752E7C5E55AF1ACC4BEE7627F /* IFXUIKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IFXUIKit-Info.plist"; sourceTree = "<group>"; };
+		83407D6629899E440FB5A1D419876E02 /* IFXView1.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IFXView1.m; sourceTree = "<group>"; };
+		86ECB55834C02334227EBCA79EBCE974 /* IFXFoundation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IFXFoundation-prefix.pch"; sourceTree = "<group>"; };
+		8AD5A99B2DD9FD39ABF3B988FDA4CCE6 /* IFXView2.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IFXView2.m; sourceTree = "<group>"; };
+		8BF4C1944301B002DF4337370D174997 /* IFXChangePrivateProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IFXChangePrivateProperty.h; sourceTree = "<group>"; };
+		8D996270F6965FE8982F3ADE968E3E18 /* IFXView1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IFXView1.h; sourceTree = "<group>"; };
 		8EE5000D27A00A0ABFAA38133F058338 /* Pods-IFXProgram-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IFXProgram-frameworks.sh"; sourceTree = "<group>"; };
-		971863E948B2EBBFF9465724DA0339C7 /* IFXView2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IFXView2.h; sourceTree = "<group>"; };
+		99C62E07D72BBD86F15DE8F4F117A6B7 /* IFXUIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFXUIKit.h; path = Classes/IFXUIKit.h; sourceTree = "<group>"; };
 		99DBF5C842A4365558BD0671F03BC1A2 /* Pods_IFXProgram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_IFXProgram.framework; path = "Pods-IFXProgram.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A1874EFC796FFA7ED4B53D90503A629C /* IFXUIKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IFXUIKit-prefix.pch"; sourceTree = "<group>"; };
-		A24047939F6159563252A785FC538CD5 /* IFXResponderChainVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IFXResponderChainVC.m; sourceTree = "<group>"; };
-		A6E3EB57B83FFCEF0065203935388C93 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		AD358E80C9C915737FB63CA6B6B84C2A /* IFXFoundation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IFXFoundation-umbrella.h"; sourceTree = "<group>"; };
-		B5EBAAD0D117D52262DEA8830C29BE19 /* IFXFoundation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IFXFoundation.release.xcconfig; sourceTree = "<group>"; };
+		A1AFD2EDAD6B23F0A011FCD170F53A72 /* IFXUIKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IFXUIKit.modulemap; sourceTree = "<group>"; };
+		A7CE6A08D693C8EFAB3D36403EE78663 /* IFXFoundation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IFXFoundation.release.xcconfig; sourceTree = "<group>"; };
+		AA92C1244B58A2B9F64805806A47400E /* IFXFoundation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IFXFoundation-umbrella.h"; sourceTree = "<group>"; };
+		C1500C9CB9446B571F737675E005E443 /* IFXFoundation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IFXFoundation-Info.plist"; sourceTree = "<group>"; };
 		C3A3AE3858695EED418A8CB76F326F58 /* Pods-IFXProgram-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IFXProgram-acknowledgements.plist"; sourceTree = "<group>"; };
-		CA59D3DF620EFCA430338C9B1F50F819 /* IFXFoundation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = IFXFoundation.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		CE7CE73880E2482398C58E958BC2988D /* IFXUIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFXUIKit.h; path = Classes/IFXUIKit.h; sourceTree = "<group>"; };
+		C816654149B173CB2E34FD0E8ACC47F8 /* IFXUIKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IFXUIKit-umbrella.h"; sourceTree = "<group>"; };
+		CCAB459071EB850245EDC857C3FC4186 /* IFXFoundation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IFXFoundation.modulemap; sourceTree = "<group>"; };
+		CE82F444CEBC0C84FFE273E3C33CE77E /* IFXResponderChainVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IFXResponderChainVC.m; sourceTree = "<group>"; };
 		CE979278E05768F3C6C291BDFBC324B3 /* Pods-IFXProgram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IFXProgram.debug.xcconfig"; sourceTree = "<group>"; };
-		D42B1CE563F45A9929F3434514128E66 /* IFXUIKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IFXUIKit.modulemap; sourceTree = "<group>"; };
-		D7B97575895C8F327E6AB5DA0DD60F38 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		DC0088F0184124B994C7E54E4E16F4E6 /* IFXFoundation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IFXFoundation-Info.plist"; sourceTree = "<group>"; };
+		CF1D96F6F8C829D6CA0ACD43C896FDF6 /* IFXUIKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IFXUIKit.debug.xcconfig; sourceTree = "<group>"; };
+		D7CB889B3957EA109E852D6C1A5ACB38 /* IFXUIKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IFXUIKit.release.xcconfig; sourceTree = "<group>"; };
+		D7DC1DC39C1F3779D7FA01E926164F6B /* IFXFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IFXFilter.m; sourceTree = "<group>"; };
+		D8CCDA281023AA67882046517F98EBE4 /* IFXRCView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IFXRCView.h; sourceTree = "<group>"; };
 		DD79A4F0721F0D4DD36D767DCD5B9AD9 /* Pods-IFXProgram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IFXProgram.release.xcconfig"; sourceTree = "<group>"; };
 		DDCD4FA13C0698A746902AAABAE81358 /* Pods-IFXProgram-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IFXProgram-acknowledgements.markdown"; sourceTree = "<group>"; };
-		EB8D7FC1D2BB2726D0009BC31AC181CD /* IFXView3.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IFXView3.m; sourceTree = "<group>"; };
-		FC7A72E2748C24E5B49F0B7FC4E5D963 /* IFXTestVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IFXTestVC.h; sourceTree = "<group>"; };
+		F59CD7B34B8193EA1765F1C68045457E /* IFXFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IFXFilter.h; sourceTree = "<group>"; };
+		F99B57C036714A7FD56E130012FCE0B5 /* IFXView3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IFXView3.h; sourceTree = "<group>"; };
+		FB20334EFF8D6D36749EA0455809A901 /* IFXView2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IFXView2.h; sourceTree = "<group>"; };
 		FFC3FCC7E66A051DCF973BE18E154562 /* IFXUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IFXUIKit.framework; path = IFXUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFC5838825AE059CD195A3526CB67B9D /* Pods-IFXProgram.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-IFXProgram.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		129EB1E724C479361CF28A7B86FACC94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0EEAF4B86544A4907AB0B397CCA58FB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		174C62A79AA801CE800EFF968876E7C2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -119,49 +135,48 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		901B32DA746900B6B2F23DC1478BA971 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				52C95AA1FF4F8112DE8F3825CC24B42D /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		07D80839A3DEDA0B960B3B0844903003 /* Support Files */ = {
+		04EBB13D13359E03C90FBCA669A8F0EC /* IFXFoundation */ = {
 			isa = PBXGroup;
 			children = (
-				50F527B4B52668F1A92CEB7DEB81B5E3 /* IFXFoundation.modulemap */,
-				367B5BF76E80E408CEB2AC33F0C7CAA7 /* IFXFoundation-dummy.m */,
-				DC0088F0184124B994C7E54E4E16F4E6 /* IFXFoundation-Info.plist */,
-				093B6D58FCF6C541DF25CF9EC36C1483 /* IFXFoundation-prefix.pch */,
-				AD358E80C9C915737FB63CA6B6B84C2A /* IFXFoundation-umbrella.h */,
-				3782A26CE7ABF8CA2610A4EF971EAC2F /* IFXFoundation.debug.xcconfig */,
-				B5EBAAD0D117D52262DEA8830C29BE19 /* IFXFoundation.release.xcconfig */,
+				03F5DB6FA21D0FD3FD68965BB51C4454 /* IFXFoundation.h */,
+				86A80917799629A4E71A3577DA54607A /* ChangePrivateProperty */,
+				78B07A590F018C9641C39BE78763A339 /* Filter */,
+				8CAEB07FD8555ED52AC6CE40F4E3F0A2 /* Pod */,
+				50B390F29A5359A53730C9A5F5A40AEE /* Support Files */,
+				FFE83B1A63FD9FD3515AFEB1D9F73B3C /* Zombie */,
+			);
+			name = IFXFoundation;
+			path = /Users/luckyvon/Documents/program/OC/OC_Foundation;
+			sourceTree = "<absolute>";
+		};
+		11DA26DA6956FF2501E6270F94B0C6B1 /* IFXUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				99C62E07D72BBD86F15DE8F4F117A6B7 /* IFXUIKit.h */,
+				AC666EA21017BB726940FC84BEB471A5 /* Pod */,
+				9AFC2B2CDDEDDA379010E31FC756D3A7 /* ResponderChain */,
+				CA86BAA00D974C5DE353956CB0D06CFE /* Support Files */,
+			);
+			name = IFXUIKit;
+			path = /Users/luckyvon/Documents/program/OC/OC_UIKit;
+			sourceTree = "<absolute>";
+		};
+		50B390F29A5359A53730C9A5F5A40AEE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCAB459071EB850245EDC857C3FC4186 /* IFXFoundation.modulemap */,
+				449CE78C53171D8224ED09DB3D156D70 /* IFXFoundation-dummy.m */,
+				C1500C9CB9446B571F737675E005E443 /* IFXFoundation-Info.plist */,
+				86ECB55834C02334227EBCA79EBCE974 /* IFXFoundation-prefix.pch */,
+				AA92C1244B58A2B9F64805806A47400E /* IFXFoundation-umbrella.h */,
+				3D6BDAA5D97CD6136451704B013ECF69 /* IFXFoundation.debug.xcconfig */,
+				A7CE6A08D693C8EFAB3D36403EE78663 /* IFXFoundation.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../OC_Program/IFXProgram/Pods/Target Support Files/IFXFoundation";
-			sourceTree = "<group>";
-		};
-		1287224383B34A5CBF2A77464B1AB06E /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				CA59D3DF620EFCA430338C9B1F50F819 /* IFXFoundation.podspec */,
-				D7B97575895C8F327E6AB5DA0DD60F38 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		558A03F8DDFD4713ABCA91FB94DE157A /* Filter */ = {
-			isa = PBXGroup;
-			children = (
-				71DE383634671670467C1943E5010F31 /* IFXFilter.h */,
-				1B15803E9FA6ED3D4530EDC3ECF36447 /* IFXFilter.m */,
-			);
-			name = Filter;
-			path = Classes/Filter;
 			sourceTree = "<group>";
 		};
 		6F97026778C088ED20FEEBD9C8B9AAAC /* Products */ = {
@@ -174,61 +189,72 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		79DAF8183EF59E5751A34260AAFB1414 /* Pod */ = {
+		78B07A590F018C9641C39BE78763A339 /* Filter */ = {
 			isa = PBXGroup;
 			children = (
-				6794C852A069AE4D25E2583747280F1B /* IFXUIKit.podspec */,
-				A6E3EB57B83FFCEF0065203935388C93 /* README.md */,
+				F59CD7B34B8193EA1765F1C68045457E /* IFXFilter.h */,
+				D7DC1DC39C1F3779D7FA01E926164F6B /* IFXFilter.m */,
+			);
+			name = Filter;
+			path = Classes/Filter;
+			sourceTree = "<group>";
+		};
+		86A80917799629A4E71A3577DA54607A /* ChangePrivateProperty */ = {
+			isa = PBXGroup;
+			children = (
+				8BF4C1944301B002DF4337370D174997 /* IFXChangePrivateProperty.h */,
+				7486A5C50F047EE14A948009DC738DEA /* IFXChangePrivateProperty.m */,
+			);
+			name = ChangePrivateProperty;
+			path = Classes/ChangePrivateProperty;
+			sourceTree = "<group>";
+		};
+		8CAEB07FD8555ED52AC6CE40F4E3F0A2 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4A480DA16541BFF1DC70DF9851D8DA6D /* IFXFoundation.podspec */,
+				46CF79854B4D538ECE944B157094B25A /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		819D9D6836F4681E85C177CF00633917 /* ResponderChain */ = {
+		97F75F08A2C9EA4EDA97C50C31833E0A /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				298C1F2B12396563D9D082175E91890B /* IFXRCView.h */,
-				834E228EBF2AE33B583F32C8EEF813A3 /* IFXRCView.m */,
-				811A6B664BA82730F53B3C47A04EC91F /* IFXResponderChainVC.h */,
-				A24047939F6159563252A785FC538CD5 /* IFXResponderChainVC.m */,
-				FC7A72E2748C24E5B49F0B7FC4E5D963 /* IFXTestVC.h */,
-				2BC80D127B384720EBD2163EE1DC2EC5 /* IFXTestVC.m */,
-				719C1245778AF70C90583557C2477367 /* IFXView1.h */,
-				3B70325D13F32692D21AD508BC2268DA /* IFXView1.m */,
-				971863E948B2EBBFF9465724DA0339C7 /* IFXView2.h */,
-				7B31F38F26B8716F4128BD5A5C9D4720 /* IFXView2.m */,
-				11D5849BDBFDA1320127F754BE8FE947 /* IFXView3.h */,
-				EB8D7FC1D2BB2726D0009BC31AC181CD /* IFXView3.m */,
+				04EBB13D13359E03C90FBCA669A8F0EC /* IFXFoundation */,
+				11DA26DA6956FF2501E6270F94B0C6B1 /* IFXUIKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9AFC2B2CDDEDDA379010E31FC756D3A7 /* ResponderChain */ = {
+			isa = PBXGroup;
+			children = (
+				D8CCDA281023AA67882046517F98EBE4 /* IFXRCView.h */,
+				6EAC41BF2145CA539CEE316B10CEC898 /* IFXRCView.m */,
+				247B52AB5B917BCA564247A73940C97A /* IFXResponderChainVC.h */,
+				CE82F444CEBC0C84FFE273E3C33CE77E /* IFXResponderChainVC.m */,
+				38D3709E96F7A92AB25F2611897599B4 /* IFXTestVC.h */,
+				14171A5631EBBB9EA5A3E153B9A3DB6A /* IFXTestVC.m */,
+				8D996270F6965FE8982F3ADE968E3E18 /* IFXView1.h */,
+				83407D6629899E440FB5A1D419876E02 /* IFXView1.m */,
+				FB20334EFF8D6D36749EA0455809A901 /* IFXView2.h */,
+				8AD5A99B2DD9FD39ABF3B988FDA4CCE6 /* IFXView2.m */,
+				F99B57C036714A7FD56E130012FCE0B5 /* IFXView3.h */,
+				4177346D77993617E580982482D590C3 /* IFXView3.m */,
 			);
 			name = ResponderChain;
 			path = Classes/ResponderChain;
 			sourceTree = "<group>";
 		};
-		81A3109F2E53C42E93FCC3BE4B1E18F5 /* Support Files */ = {
+		AC666EA21017BB726940FC84BEB471A5 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				D42B1CE563F45A9929F3434514128E66 /* IFXUIKit.modulemap */,
-				05F0FA625C7AE552AE18121A4762AA5A /* IFXUIKit-dummy.m */,
-				864612A752E7C5E55AF1ACC4BEE7627F /* IFXUIKit-Info.plist */,
-				A1874EFC796FFA7ED4B53D90503A629C /* IFXUIKit-prefix.pch */,
-				25792DE48B047E4ACE1442B117176E17 /* IFXUIKit-umbrella.h */,
-				1FC79BAFFCC4E32ADD71CD86B2280254 /* IFXUIKit.debug.xcconfig */,
-				6801DE4E8AA35FABCBE83885C28D2C7A /* IFXUIKit.release.xcconfig */,
+				78277B1B94CF1F0144E4BBDAEF73E083 /* IFXUIKit.podspec */,
+				359AECB45DCAA1603DD3769C23AD93D2 /* README.md */,
 			);
-			name = "Support Files";
-			path = "../OC_Program/IFXProgram/Pods/Target Support Files/IFXUIKit";
+			name = Pod;
 			sourceTree = "<group>";
-		};
-		B1BACB3C99ADD9D97F16770ADE9E9E0E /* IFXUIKit */ = {
-			isa = PBXGroup;
-			children = (
-				CE7CE73880E2482398C58E958BC2988D /* IFXUIKit.h */,
-				79DAF8183EF59E5751A34260AAFB1414 /* Pod */,
-				819D9D6836F4681E85C177CF00633917 /* ResponderChain */,
-				81A3109F2E53C42E93FCC3BE4B1E18F5 /* Support Files */,
-			);
-			name = IFXUIKit;
-			path = /Users/luckyvon/Documents/program/OC/OC_UIKit;
-			sourceTree = "<absolute>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
@@ -238,20 +264,26 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C188F0BE9B4E281942AEEAB187C3360C /* Development Pods */ = {
+		CA86BAA00D974C5DE353956CB0D06CFE /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E42D966A75B83AA12EDBBFFD560652BD /* IFXFoundation */,
-				B1BACB3C99ADD9D97F16770ADE9E9E0E /* IFXUIKit */,
+				A1AFD2EDAD6B23F0A011FCD170F53A72 /* IFXUIKit.modulemap */,
+				0D23261ED1DCF0628A0DCADE8A7646BF /* IFXUIKit-dummy.m */,
+				6B76DC5D908A6CB523B2C97C03D532A9 /* IFXUIKit-Info.plist */,
+				6682432D8580AAF3DC2EFA6CA12D7C58 /* IFXUIKit-prefix.pch */,
+				C816654149B173CB2E34FD0E8ACC47F8 /* IFXUIKit-umbrella.h */,
+				CF1D96F6F8C829D6CA0ACD43C896FDF6 /* IFXUIKit.debug.xcconfig */,
+				D7CB889B3957EA109E852D6C1A5ACB38 /* IFXUIKit.release.xcconfig */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "../OC_Program/IFXProgram/Pods/Target Support Files/IFXUIKit";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				C188F0BE9B4E281942AEEAB187C3360C /* Development Pods */,
+				97F75F08A2C9EA4EDA97C50C31833E0A /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				6F97026778C088ED20FEEBD9C8B9AAAC /* Products */,
 				D7494277079CD24599269CACF1A37141 /* Targets Support Files */,
@@ -291,36 +323,36 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		E42D966A75B83AA12EDBBFFD560652BD /* IFXFoundation */ = {
+		FFE83B1A63FD9FD3515AFEB1D9F73B3C /* Zombie */ = {
 			isa = PBXGroup;
 			children = (
-				44B7A075181C9E6D94A31141A0AF6447 /* IFXFoundation.h */,
-				558A03F8DDFD4713ABCA91FB94DE157A /* Filter */,
-				1287224383B34A5CBF2A77464B1AB06E /* Pod */,
-				07D80839A3DEDA0B960B3B0844903003 /* Support Files */,
+				17E47069967DB51DBE03E6C4E2918A0B /* NSObject+IFXZombie.h */,
+				570FE5A8699E01ABAD75D5AABDA5DF18 /* NSObject+IFXZombie.m */,
 			);
-			name = IFXFoundation;
-			path = /Users/luckyvon/Documents/program/OC/OC_Foundation;
-			sourceTree = "<absolute>";
+			name = Zombie;
+			path = Classes/Zombie;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		17CE23C0E83B761848BBE9D81DFA8C78 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4FA7958A0D594FA4B08931FC099873BB /* IFXFilter.h in Headers */,
-				4B3FBEFA660A5191D045523B84C1B90A /* IFXFoundation-umbrella.h in Headers */,
-				8023ADB65F15DDFEF65156A74C13851F /* IFXFoundation.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2D89C11C335978B1BD07D9569269B747 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E885D44BF4CF6FF316D74F161E636D15 /* Pods-IFXProgram-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		426BF441893A978E7C59BB38BC49F46F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1057F5380D5BCC5E81681BB1FE223E8A /* IFXChangePrivateProperty.h in Headers */,
+				08A2A44338FE75CAE63E429F9F25D6FD /* IFXFilter.h in Headers */,
+				DBD4EF6ECA68F87E15D4D6F28631787B /* IFXFoundation-umbrella.h in Headers */,
+				65916686C8FACE0982628C79C24894A0 /* IFXFoundation.h in Headers */,
+				5674F138A36EB5DA2850440DC1AC0804 /* NSObject+IFXZombie.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,12 +396,12 @@
 		};
 		A61675175B1DF78776B556C2B49F4C49 /* IFXFoundation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3DACD91F297F393A477EFDBC16A7CCE2 /* Build configuration list for PBXNativeTarget "IFXFoundation" */;
+			buildConfigurationList = F068EECCF2C789AF964922F084F67B70 /* Build configuration list for PBXNativeTarget "IFXFoundation" */;
 			buildPhases = (
-				17CE23C0E83B761848BBE9D81DFA8C78 /* Headers */,
-				2DB8903E1ACC20648505D256DB25CBB1 /* Sources */,
-				901B32DA746900B6B2F23DC1478BA971 /* Frameworks */,
-				29ACAE51F24EAE962939268D9C6CF10F /* Resources */,
+				426BF441893A978E7C59BB38BC49F46F /* Headers */,
+				ACA3555D4DFE155785C798CEAFA300F3 /* Sources */,
+				129EB1E724C479361CF28A7B86FACC94 /* Frameworks */,
+				750D29F8C28BBA93112E8EED1878723A /* Resources */,
 			);
 			buildRules = (
 			);
@@ -435,14 +467,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		29ACAE51F24EAE962939268D9C6CF10F /* Resources */ = {
+		2E66EBDE1726ABF2165EBB11139F8116 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2E66EBDE1726ABF2165EBB11139F8116 /* Resources */ = {
+		750D29F8C28BBA93112E8EED1878723A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -452,15 +484,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2DB8903E1ACC20648505D256DB25CBB1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1C8F9DD98809857D18BC00D248F5D724 /* IFXFilter.m in Sources */,
-				323B838DF7952D63991C6E9BA51B7EF0 /* IFXFoundation-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		747B6DC8C1586054DC98A5D3EBADFB6D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -483,6 +506,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ACA3555D4DFE155785C798CEAFA300F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35AC8AF29491E33046FA0430484224A9 /* IFXChangePrivateProperty.m in Sources */,
+				042F6A3F22795A6E4926D92EDC882D42 /* IFXFilter.m in Sources */,
+				AE2B6A5CF66BE57E6B9CD0083D2BA7CF /* IFXFoundation-dummy.m in Sources */,
+				350AF1A5A0CF6441C1035B498AD143C0 /* NSObject+IFXZombie.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -501,9 +535,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0AFC9D1F1737D2F554AE587A827E62C2 /* Debug */ = {
+		123817D965CE2EFEE184EF2993643885 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3782A26CE7ABF8CA2610A4EF971EAC2F /* IFXFoundation.debug.xcconfig */;
+			baseConfigurationReference = A7CE6A08D693C8EFAB3D36403EE78663 /* IFXFoundation.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -526,14 +560,15 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		1C4B513AFD80B5A8C5DBE980E9FD97DF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6801DE4E8AA35FABCBE83885C28D2C7A /* IFXUIKit.release.xcconfig */;
+			baseConfigurationReference = D7CB889B3957EA109E852D6C1A5ACB38 /* IFXUIKit.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -631,7 +666,7 @@
 		};
 		71D0753A928E3DA0914698651DF5FA08 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1FC79BAFFCC4E32ADD71CD86B2280254 /* IFXUIKit.debug.xcconfig */;
+			baseConfigurationReference = CF1D96F6F8C829D6CA0ACD43C896FDF6 /* IFXUIKit.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -783,9 +818,9 @@
 			};
 			name = Debug;
 		};
-		EDFA3E65C11744E4B4EBF79FF59C15A6 /* Release */ = {
+		99F213DD2A7653E3D643AA0C627E1C07 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B5EBAAD0D117D52262DEA8830C29BE19 /* IFXFoundation.release.xcconfig */;
+			baseConfigurationReference = 3D6BDAA5D97CD6136451704B013ECF69 /* IFXFoundation.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -808,24 +843,14 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3DACD91F297F393A477EFDBC16A7CCE2 /* Build configuration list for PBXNativeTarget "IFXFoundation" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0AFC9D1F1737D2F554AE587A827E62C2 /* Debug */,
-				EDFA3E65C11744E4B4EBF79FF59C15A6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -849,6 +874,15 @@
 			buildConfigurations = (
 				71D0753A928E3DA0914698651DF5FA08 /* Debug */,
 				1C4B513AFD80B5A8C5DBE980E9FD97DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F068EECCF2C789AF964922F084F67B70 /* Build configuration list for PBXNativeTarget "IFXFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99F213DD2A7653E3D643AA0C627E1C07 /* Debug */,
+				123817D965CE2EFEE184EF2993643885 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

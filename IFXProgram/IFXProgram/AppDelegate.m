@@ -11,6 +11,7 @@
 #import "ViewController.h"
 
 #import "IFXFoundation/IFXFoundation.h"
+#import "IFXFoundation/IFXChangePrivateProperty.h"
 
 @interface AppDelegate ()
 
@@ -27,13 +28,19 @@
     ViewController *viewController = [[ViewController alloc] init];
     self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:viewController];
     
-    [self.window makeKeyAndVisible];	
+    [self.window makeKeyAndVisible];
+    
+    [self test];
     
     return YES;
 }
 
 - (void)test {
-    [IFXFilter filterWithKVC];
+    
+    [IFXChangePrivateProperty testWay1];
+    [IFXChangePrivateProperty testWay2];
+    [IFXChangePrivateProperty testWay3];
+    
 }
 
 
